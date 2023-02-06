@@ -1,0 +1,135 @@
+CREATE TABLE utilisateurs(
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    pseudo VARCHAR(20),
+    description VARCHAR(128),
+    mdp VARCHAR(128),
+    email VARCHAR(45),
+    image VARCHAR(128) DEFAULT 'default.png',
+    quizz_point INTEGER DEFAULT 0,
+    cle CHAR(13),
+    avatar_actif INTEGER DEFAULT 0,
+    verifie INTEGER DEFAULT 0,
+    bannis INTEGER DEFAULT 0,
+    droit INTEGER DEFAULT 0
+);
+
+CREATE TABLE skins(
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    nom VARCHAR(25),
+    type VARCHAR(15),
+    image VARCHAR(20),
+    prix INTEGER,
+    rarete char(1),
+    ordre INTEGER
+);
+
+CREATE TABLE collection(
+    id_utilisateur INTEGER REFERENCES utilisateurs(id),
+    id_skin INTEGER REFERENCES skins(id),
+    actif INTEGER DEFAULT 0,
+    PRIMARY KEY(id_utilisateur,id_skin)
+);
+
+CREATE TABLE demande_amis(
+    id_envoie INTEGER REFERENCES utilisateurs(id),
+    id_recoit INTEGER REFERENCES utilisateurs(id),
+    accepte INTEGER,
+    PRIMARY KEY(id_envoie,id_recoit)
+);
+
+CREATE TABLE topic(
+    nom VARCHAR(32),
+    date_creation DATETIME,
+    nb_message INTEGER,
+    introduction TEXT,
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+        auteur INTEGER REFERENCES utilisateurs(id)
+);
+
+CREATE TABLE message_forum(
+    auteur INTEGER REFERENCES utilisateurs(id),
+    topic INTEGER REFERENCES topic(id),
+    date_envoie DATETIME,
+    contenue TEXT,
+    id INTEGER PRIMARY KEY AUTO_INCREMENT
+);
+
+CREATE TABLE theme(
+    nom VARCHAR(30),
+    couleur CHAR(7),
+    image VARCHAR(30),
+    numero CHAR(3) PRIMARY KEY
+);
+CREATE TABLE note(
+    note INTEGER CHECK (note BETWEEN 0 AND 5),
+    utilisateur INTEGER REFERENCES utilisateurs(id),
+    theme CHAR(3) REFERENCES theme(numero)
+);
+CREATE TABLE est_ami(
+    ami1 INTEGER REFERENCES utilisateurs(id),
+        ami2 INTEGER REFERENCES utilisateurs(id),
+        date_ajout DATETIME,
+        bloque INTEGER DEFAULT 0,
+        PRIMARY KEY(ami1,ami2)
+
+);
+CREATE TABLE envoie_message(
+    id_envoie INTEGER REFERENCES utilisateurs(id),
+    id_recoit INTEGER REFERENCES utilisateurs(id),
+    date_envoie DATETIME,
+    contenue TEXT,
+    vue INTEGER DEFAULT 0,
+    id INTEGER PRIMARY KEY AUTO_INCREMENT
+);
+CREATE TABLE question(
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    question VARCHAR(160),
+    b_rep VARCHAR(60),
+    rep2 VARCHAR(60),
+    rep3 VARCHAR(60),
+    rep4 VARCHAR(60),
+    type CHAR(1),
+    image VARCHAR(20),
+    audio VARCHAR(20),
+    theme CHAR(3) REFERENCES theme(numero)
+);
+CREATE TABLE session(
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    nb_joueurs INTEGER,
+    statut INTEGER,
+    mode VARCHAR(10),
+    nb_questions INTEGER,
+    tmp_reponse INTEGER,
+    date_creation DATETIME,
+    createur INTEGER REFERENCES utilisateurs(id),
+    code VARCHAR(10)
+);
+CREATE TABLE partie(
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    pause INTEGER,
+    session INTEGER REFERENCES session(id)
+);
+CREATE TABLE joue_partie(
+    joueur INTEGER REFERENCES utilisateurs(id),
+    partie INTEGER REFERENCES partie(id),
+    score INTEGER DEFAULT 0,
+    PRIMARY KEY(joueur,partie)
+);
+CREATE TABLE partie_q(
+    partie INTEGER REFERENCES partie(id),
+    question INTEGER REFERENCES question(id),
+    statut INTEGER,
+    tmp_ecoule INTEGER,
+    PRIMARY KEY(partie,question),
+    ordre INTEGER DEFAULT 0;
+);
+CREATE TABLE contient_theme(
+    session INTEGER REFERENCES session(id),
+    theme CHAR(3) REFERENCES theme(numero),
+    PRIMARY KEY(session,theme)
+);
+CREATE TABLE rejoin_session(
+    session INTEGER REFERENCES session(id),
+    joueur INTEGER REFERENCES utilisateurs(id),
+    PRIMARY KEY(joueur,session)
+);

@@ -1,0 +1,15 @@
+INSERT INTO theme(nom,couleur,image,numero) VALUES('Culture generale','#D87D7D','culture.png','cul');
+INSERT INTO theme(nom,couleur,image,numero) VALUES('Drapeaux','#FFFFFF','flag.png','dra');
+INSERT INTO theme(nom,couleur,image,numero) VALUES('Mangas','#FFEAD9','mangas.png','man');
+INSERT INTO theme(nom,couleur,image,numero) VALUES('Cinema','#8D93CE','movie.png','cin');
+INSERT INTO theme(nom,couleur,image,numero) VALUES('Jeux Videos','#C4C4C4','jv.png','jeu');
+INSERT INTO theme(nom,couleur,image,numero) VALUES('Sport','#63C7D4','sport.png','spo');
+INSERT INTO theme(nom,couleur,image,numero) VALUES('Science','#4A4A48','science.png','sci');
+INSERT INTO theme(nom,couleur,image,numero) VALUES('Qui est-ce ?','#EA4949','pop.png','qui');
+INSERT INTO theme(nom,couleur,image,numero) VALUES('Musique','#CBF2BD','music.png','mus');
+INSERT INTO theme(nom,couleur,image,numero) VALUES('Rap','#ECF7FF','rap.png','rap');
+INSERT INTO theme(nom,couleur,image,numero) VALUES('Animaux','#A39090','animal.png','ani');
+INSERT INTO theme(nom,couleur,image,numero) VALUES('Geographie','#E98C36','geo.png','geo');
+INSERT INTO theme(nom,couleur,image,numero) VALUES('Histoire','#DC7777','history.png','his');
+INSERT INTO theme(nom,couleur,image,numero) VALUES('Cuisine','#6A69AD','cook.png','cui');
+INSERT INTO theme(nom,couleur,image,numero) VALUES('Dessins animes','#F2D87C','donut.png','des');

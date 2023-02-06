@@ -1,0 +1,1 @@
+INSERT INTO question(question,b_rep,rep2,rep3,rep4,type,image,audio,theme) VALUES('Dans la série animé les Ratz, qui sont les deux personnages principaux ?','Razmo Et Rapido','Rasmo et Ratido','Razmo et Finito','Rasmo et Parido','c',NULL,NULL,'des');

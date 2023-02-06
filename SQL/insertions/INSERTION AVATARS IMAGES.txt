@@ -1,0 +1,137 @@
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('visage','head_1',NULL,NULL,2);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('visage','head_2',NULL,NULL,2);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('visage','head_3',NULL,NULL,2);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('visage','head_4',NULL,NULL,2);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('visage','head_5',NULL,NULL,2);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('visage','head_6',NULL,NULL,2);
+
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('fond','fond_bleu',NULL,NULL,0);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('fond','fond_bleu_clair',NULL,NULL,0);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('fond','fond_bleu_foncee',NULL,NULL,0);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('fond','fond_gris',NULL,NULL,0);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('fond','fond_jaune',NULL,NULL,0);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('fond','fond_lacree',NULL,NULL,0);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('fond','fond_rose',NULL,NULL,0);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('fond','fond_rouge',NULL,NULL,0);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('fond','fond_vert',NULL,NULL,0);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('fond','fond_violet',NULL,NULL,0);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('fond','fond_orange',NULL,NULL,0);
+
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('barbe','barbe_1',NULL,NULL,6);
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('barbe viking','barbe','barbe_2',120,'r',6);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('barbe','moustache_1',NULL,NULL,6);
+
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('bouche','bouche_1',NULL,NULL,7);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('bouche','bouche_2',NULL,NULL,7);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('bouche','bouche_3',NULL,NULL,7);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('bouche','bouche_4',NULL,NULL,7);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('bouche','bouche_5',NULL,NULL,7);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('bouche','bouche_6',NULL,NULL,7);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('bouche','bouche_7',NULL,NULL,7);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('bouche','bouche_8',NULL,NULL,7);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('bouche','bouche_9',NULL,NULL,7);
+
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('yeux','yeux_1',NULL,NULL,3);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('yeux','yeux_2',NULL,NULL,3);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('yeux','yeux_3',NULL,NULL,3);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('yeux','yeux_4',NULL,NULL,3);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('yeux','yeux_5',NULL,NULL,3);
+
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('sourcil','sourcil_1',NULL,NULL,3);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('sourcil','sourcil_2',NULL,NULL,3);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('sourcil','sourcil_3',NULL,NULL,3);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('sourcil','sourcil_4',NULL,NULL,3);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('sourcil','sourcil_5',NULL,NULL,3);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('sourcil','sourcil_6',NULL,NULL,3);
+
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('lunette','lunette_1',NULL,NULL,4);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('lunette','lunette_2',NULL,NULL,4);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('lunette','lunette_3',NULL,NULL,4);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('lunette','lunette_4',NULL,NULL,4);
+
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('lunette 3D','lunette','lunette_3D',270,'e',4);
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('lunette swag','lunette','lunette_5',170,'r',4);
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('lunette disco','lunette','rainbow',270,'e',4);
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('minecraft','lunette','minecraft',510,'l',4);
+
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('cheveux','cheveux_1',NULL,NULL,5);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('cheveux','cheveux_2',NULL,NULL,5);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('cheveux','cheveux_3',NULL,NULL,5);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('cheveux','cheveux_4',NULL,NULL,5);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('cheveux','cheveux_5',NULL,NULL,5);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('cheveux','cheveux_6',NULL,NULL,5);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('cheveux','cheveux_7',NULL,NULL,5);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('cheveux','cheveux_8',NULL,NULL,5);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('cheveux','cheveux_9',NULL,NULL,5);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('cheveux','cheveux_10',NULL,NULL,5);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('cheveux','cheveux_11',NULL,NULL,5);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('cheveux','cheveux_12',NULL,NULL,5);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('cheveux','cheveux_13',NULL,NULL,1);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('cheveux','cheveux_14',NULL,NULL,5);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('cheveux','cheveux_15',NULL,NULL,5);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('cheveux','cheveux_16',NULL,NULL,5);
+INSERT INTO skins (type,image,prix,rarete,ordre) VALUES ('cheveux','cheveux_17',NULL,NULL,5);
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('waves','cheveux','waves',300,'e',5);
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('naruto','cheveux','naruto_cheveux',700,'l',5);
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('la tentation','cheveux','xxxtentacion',470,'e',5);
+
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('patty le chat','cosmetique','patty',200,'r',8);
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('tony tony chopa','cosmetique','chopa',820,'l',8);
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('couronne','cosmetique','couronne',130,'r',8);
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('HEHEHE HA','cosmetique','heheha',1000,'l',8);
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('moussailon','cosmetique','moussailon',350,'e',8);
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('mugiwara no','cosmetique','mugiwara',1100,'l',8);
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('ninja','cosmetique','ninja',430,'e',8);
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('chapeau pirate','cosmetique','pirate',130,'r',8);
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('robot','cosmetique','robot',200,'r',8);
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('shrek','cosmetique','shrek',480,'e',8);
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('harry potta','cosmetique','sorcier',130,'r',8);
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('mechant robot','cosmetique','terminator',350,'e',8);
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('ton pere','cosmetique','vador',400,'e',8);
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('ragnar','cosmetique','viking',130,'r',8);
+INSERT INTO skins (nom,type,image,prix,rarete,ordre) VALUES ('Supa Sananes','cosmetique','sananes',1350,'l',8);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
